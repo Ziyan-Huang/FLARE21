@@ -53,13 +53,13 @@ Our method achieves the following performance on the validation set of FLARE Cha
 
 | Metrics (Avg+-Std) | nnUNet Baseline | LetsGo     |
 | ------------------ | --------------- | ---------- |
-| Liver-DSC          | 94.5+-8.09      | 95.0+-6.38 |
-| Liver-NSD          | 79.3+-14.9      | 80.3+-14.8 |
-| Kidnet-DSC         | 80.4+-17.0      | 80.0+-18.3 |
-| Kidney-NSD         | 70.9+-18.4      | 71.3+-18.7 |
-| Spleen-DSC         | 89.5+-18.0      | 90.6+-16.7 |
-| Spleen-NSD         | 82.0+-19.3      | 83.9+-19.6 |
-| Pancreas-DSC       | 60.1+-23.1      | 61.7+-23.0 |
+| Liver-DSC          | 94.5±8.09      | 95.0±6.38 |
+| Liver-NSD          | 79.3±14.9      | 80.3±14.8 |
+| Kidnet-DSC         | 80.4±17.0      | 80.0±18.3 |
+| Kidney-NSD         | 70.9±18.4      | 71.3±18.7 |
+| Spleen-DSC         | 89.5±18.0      | 90.6±16.7 |
+| Spleen-NSD         | 82.0±19.3      | 83.9±19.6 |
+| Pancreas-DSC       | 60.1±23.1      | 61.7±23.0 |
 | Running Time       | 145             | 188.1      |
 | GPU Memory         | 2298            | 2938       | 
 
