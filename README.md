@@ -19,9 +19,11 @@ export RESULTS_FOLDER="/media/fabian/nnUNet_trained_models"
 (of course adapt the paths to your system)
 
 3. Copy the python files in this repository to the code directory of nnU-Net.
-* Copy the python files in folder network_architecture to nnunet/architecture
-* Copy the python files in folder network_training to nnunet/training/network_training
-* Copy the python file run_searching.py to nnunet/run
+```
+cp LetsGoTrainer.py nnunet/training/network_training
+cp LetsGo_UNet.py nnunet/network_architecture
+```
+
 ## Dataset
 FLARE21
 We name the dataset Task817_FLARE.
