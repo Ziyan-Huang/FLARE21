@@ -52,7 +52,7 @@ Download our trained model in [Baidu Net disk](https://pan.baidu.com/s/1SW7b-LJB
 
 ## Inference
 ```
-python inference/predict_simple.py -i INPUT_FOLDER -o OUTPUT_FOLDER -t 817 -m 3d_fullres -f all --disable_tta
+python inference/predict_simple.py -i INPUT_FOLDER -o OUTPUT_FOLDER -t 817 -tr LetsGoTrainer -m 3d_fullres -f all --disable_tta
 ```
 
 ## Results
