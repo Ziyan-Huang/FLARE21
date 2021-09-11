@@ -59,7 +59,7 @@ python inference/predict_simple.py -i INPUT_FOLDER -o OUTPUT_FOLDER -t 817 -m 3d
 Our method achieves the following performance on the validation set of FLARE Challenge
 
 
-| Metrics (Avg+-Std) | nnUNet Baseline | LetsGo     |
+| Metrics (Avg±Std) | nnUNet Baseline | LetsGo     |
 | ------------------ | --------------- | ---------- |
 | Liver-DSC          | 94.5±8.09      | 95.0±6.38 |
 | Liver-NSD          | 79.3±14.9      | 80.3±14.8 |
