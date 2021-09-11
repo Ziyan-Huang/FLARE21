@@ -25,8 +25,14 @@ cp LetsGo_UNet.py nnunet/network_architecture
 ```
 
 ## Dataset
-FLARE21
-We name the dataset Task817_FLARE.
+We download the training images, training labels and validation images from https://flare.grand-challenge.org/Data/.
+Then we organize the data of FLARE folowing the requirement of nnUNet.
+
+    nnUNet_raw_data_base/nnUNet_raw_data/Task817_FLARE/
+    ├── dataset.json
+    ├── imagesTr
+    ├── imagesTs
+    └── labelsTr
 
 ## Preprocessing
  Conduct automatic preprocessing using nnUNet.
@@ -46,7 +52,7 @@ We will release our trained model later.
 
 ## Inference
 ```
-python inference/predict_simple.py -i INPUT_FOLDER -o OUTPUT_FOLDER -t 817 -m 3d_fullres -f all --disabled_tta
+python inference/predict_simple.py -i INPUT_FOLDER -o OUTPUT_FOLDER -t 817 -m 3d_fullres -f all --disable_tta
 ```
 
 ## Results
