@@ -18,7 +18,6 @@ class LetsGoTrainer(nnUNetTrainerV2):
                                     self.arch_list,
                                     self.net_num_pool_op_kernel_sizes, 
                                     self.net_conv_kernel_sizes)
-        print('current arch:', self.arch_list)
         if torch.cuda.is_available():
             self.network.cuda()
         self.network.inference_apply_nonlin = softmax_helper
