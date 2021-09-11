@@ -25,8 +25,8 @@ cp LetsGo_UNet.py nnunet/network_architecture
 ```
 
 ## Dataset
-We download the training images, training labels and validation images from https://flare.grand-challenge.org/Data/.
-Then we organize the data of FLARE folowing the requirement of nnUNet.
+Download the training images, training labels and validation images from https://flare.grand-challenge.org/Data/.
+Then organize the data of FLARE folowing the requirement of nnUNet.
 
     nnUNet_raw_data_base/nnUNet_raw_data/Task817_FLARE/
     ├── dataset.json
