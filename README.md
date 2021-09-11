@@ -18,7 +18,7 @@ export RESULTS_FOLDER="/data/hzy/nnUNet/nnUNet_trained_models"
 ```
 (of course adapt the paths to your system)
 
-3. Copy the python files in this repository to the code directory of nnU-Net.
+3. Copy the python files in this repository to the code directory of nnUNet.
 ```
 cp LetsGoTrainer.py nnunet/training/network_training
 cp LetsGo_UNet.py nnunet/network_architecture
