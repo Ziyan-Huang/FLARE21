@@ -48,7 +48,7 @@ python run_training.py 3d_fullres LetsGoTrainer 817 all
 ```
 
 ## Trained Models
-Download our trained model in [Baidu Net disk](https://pan.baidu.com/s/1SW7b-LJB6P1FM8mT4dZMSQ)(PW:orhp) and put the model in your RESULTS_FOLDER of nnUNet.
+Download our trained model in [Baidu Net disk](https://pan.baidu.com/s/1SW7b-LJB6P1FM8mT4dZMSQ) (PW:orhp) and put the model in your RESULTS_FOLDER of nnUNet.
 
 ## Inference
 ```
