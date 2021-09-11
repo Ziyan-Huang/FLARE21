@@ -41,7 +41,7 @@ Then we organize the data of FLARE folowing the requirement of nnUNet.
  ```
 
 ## Training
-To train the model of our solution, run the following scripts:
+To train the model of our solution from scratch, run the following scripts:
 ```
 cd nnunet/run
 python run_training.py 3d_fullres LetsGoTrainer 817 all
