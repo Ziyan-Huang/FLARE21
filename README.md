@@ -12,9 +12,9 @@ pip install -e .
 
 2. Set environment variables for nnU-Net. Concretely, Set the paths in your .bashrc file, which is located in your home directory. Open the file and add the following lines to the bottom:
 ```
-export nnUNet_raw_data_base="/media/fabian/nnUNet_raw"
-export nnUNet_preprocessed="/media/fabian/nnUNet_preprocessed"
-export RESULTS_FOLDER="/media/fabian/nnUNet_trained_models"
+export nnUNet_raw_data_base="/data/hzy/nnUNet/nnUNet_raw"
+export nnUNet_preprocessed="/data/hzy/nnUNet/nnUNet_preprocessed"
+export RESULTS_FOLDER="/data/hzy/nnUNet/nnUNet_trained_models"
 ```
 (of course adapt the paths to your system)
 
@@ -48,7 +48,7 @@ python run_training.py 3d_fullres LetsGoTrainer 817 all
 ```
 
 ## Trained Models
-Download our trained model in [Baidu Net disk](https://pan.baidu.com/s/1SW7b-LJB6P1FM8mT4dZMSQ) (PW:orhp) and put the model in your RESULTS_FOLDER of nnUNet.
+Download our trained model in [Baidu Net disk](https://pan.baidu.com/s/1SW7b-LJB6P1FM8mT4dZMSQ) (PW: orhp) and put the model in your RESULTS_FOLDER of nnUNet.
 
 ## Inference
 ```
