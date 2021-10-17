@@ -3,7 +3,7 @@
 Built upon [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet), this repository provides the solution of team LetsGo for FLARE21 Challenge.
 
 ## Environments and Requirements:
-1. Install nnU-Net as below. You should meet the requirements of nnUNet, our method does not need any additional requirements.  For more details, please refer to https://github.com/MIC-DKFZ/nnUNet
+1. Install nnU-Net [1] as below. You should meet the requirements of nnUNet, our method does not need any additional requirements.  For more details, please refer to https://github.com/MIC-DKFZ/nnUNet
 ```
 git clone https://github.com/MIC-DKFZ/nnUNet.git
 cd nnUNet
@@ -82,3 +82,7 @@ docker container run --gpus "all" --name letsgo --rm \
 -v $PWD/outputs/:/workspace/outputs/ \
 letsgo:latest /bin/bash -c "sh predict.sh"
 ```
+
+## Reference
+[1] Isensee, Fabian, et al. "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation." Nature methods 18.2 (2021): 203-211.
+[2] Ma, Jun, et al. "Abdomenct-1k: Is abdominal organ segmentation a solved problem." IEEE Transactions on Pattern Analysis and Machine Intelligence (2021).
