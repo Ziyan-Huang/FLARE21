@@ -72,4 +72,13 @@ Our method achieves the following performance on the validation set of FLARE Cha
 | Running Time       | 145            | 188.1     |
 | GPU Memory         | 2298           | 2938      | 
 
-
+## Docker
+We retrained our model on the whole Abodominal-1K dataset, and built a docker image of our trained model. You can download our model at [Baidu Net disk](https://pan.baidu.com/s/18u45XC04RyzkoQdeIMEtHw) (PW: 2021)
+To use our docker for inference, 
+```
+docker image load < letsgo.tar.gz
+docker container run --gpus "all" --name letsgo --rm \
+-v $PWD/inputs/:/workspace/inputs/ \
+-v $PWD/outputs/:/workspace/outputs/ \
+letsgo:latest /bin/bash -c "sh predict.sh"
+```
