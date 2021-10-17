@@ -73,7 +73,7 @@ Our method achieves the following performance on the validation set of FLARE Cha
 | GPU Memory         | 2298           | 2938      | 
 
 ## Docker trained on AbdomenCT-1k
-We retrained our model on the whole AbodomenCT-1K dataset, and built a docker image of our trained model. You can download our model at [Baidu Net disk](https://pan.baidu.com/s/18u45XC04RyzkoQdeIMEtHw) (PW: 2021)
+We retrained our model on the whole AbodomenCT-1K [2] dataset, and built a docker image of our trained model. You can download our model at [Baidu Net disk](https://pan.baidu.com/s/18u45XC04RyzkoQdeIMEtHw) (PW: 2021)
 The docker can be used by running,:
 ```
 docker image load < letsgo.tar.gz
@@ -85,4 +85,5 @@ letsgo:latest /bin/bash -c "sh predict.sh"
 
 ## Reference
 [1] Isensee, Fabian, et al. "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation." Nature methods 18.2 (2021): 203-211.
+
 [2] Ma, Jun, et al. "Abdomenct-1k: Is abdominal organ segmentation a solved problem." IEEE Transactions on Pattern Analysis and Machine Intelligence (2021).
